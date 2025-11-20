@@ -102,4 +102,4 @@ ansible-playbook nginx.yaml
           </body>
           </html>
 ````
-
+![main](./images/ansibal_main.png)
