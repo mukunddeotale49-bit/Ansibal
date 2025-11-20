@@ -99,7 +99,7 @@ ansible-playbook site.yml
 ```
 - First time → handler will run
 - Second time → handler will NOT run because no change
-![handler](./images/handler1.png)
+![handler](./images/Handler1.png)
 
 
 ## STEP 6 — Test handler triggers again
@@ -130,7 +130,7 @@ Change content in tasks:
 ansible-playbook site.yml
 ```
 
-![handler](./images/handler2.png)
+![handler](./images/Handler2.png)
 
 
 
