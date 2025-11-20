@@ -121,9 +121,8 @@ Change content in tasks:
 - name: Create index file
   copy:
     dest: /var/www/html/index.html
-   content: "<h1>Hello Again! Handler Test!</h1>"
+    content: "<h1>Hello Again! Handler Test!</h1>"
   notify: restart nginx
-
 ```
 ### Run ansible-playbook site.yml
 ```bash
