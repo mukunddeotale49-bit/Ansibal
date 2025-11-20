@@ -5,7 +5,7 @@ ssh-keygen
 ````
 
 ```bash
-sudo cat ./ssh/id_ed25519.pub
+sudo cat .ssh/id_ed25519.pub
 ```
 ## worker node 
 ## copy public key And paste to worker node .ssh/authorized_keys file
