@@ -33,11 +33,14 @@ ansible --version
 
 ````
 sudo nano /etc/ansible/hosts
-private-ip of worker nodes
 ````
+private-ip of worker nodes
+
 
 ### edit ansible.cfg
-
+```bash
+sudo nano /etc/ansible/ansible.cfg
+```
 ````
 [defaults]
 inventory = hosts
